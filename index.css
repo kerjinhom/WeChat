@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection{
+        background-color: #20ac1c;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.title{
+    width: 235px;
+    user-select: none;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.button{
+    color: white;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    border: none;
+    border-radius: 2px;
+    background-color: #20ac1c;
+    user-select: none;
+    height: 30px;
+    width: 250px;
+}
+
+.input{
+    background-color: whitesmoke;
+    border: none;
+    top: 35%;
+    left: 50%;
+    user-select: none;
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    transform: translate(-25%);
+}
+
+.inputpass{
+    background-color: whitesmoke;
+    border: none;
+    top: 39.8%;
+    left: 50%;
+    user-select: none;
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    transform: translate(-25%);
+}
+
+.inputacc{
+    
+    user-select: none;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-215%);
+}
+
+.inputpassword{
+    user-select: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-175%);
+}
+
+.line{
+    top: 37.5%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    border: none;
+    size: 3;
+    width: 250px;
+    background-color: #20ac1c;
+}
+
+.line2{
+    top: 42%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    border: none;
+    size: 3;
+    width: 250px;
+    background-color: #20ac1c;
+}
