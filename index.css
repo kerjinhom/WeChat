@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
+    overflow: auto;
     user-select: none;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0; 
+  background: transparent;
 }
 
 ::selection{
@@ -14,23 +20,21 @@ body{
 
 .title{
     width: 235px;
-    user-select: none;
     position: absolute;
-    top: 20%;
+    top: 25px;
     left: 50%;
     transform: translate(-50%);
 }
 
 .button{
     color: white;
-    top: 55%;
+    bottom: 50px;
     left: 50%;
     position: absolute;
     transform: translate(-50%);
     border: none;
     border-radius: 2px;
     background-color: #20ac1c;
-    user-select: none;
     height: 30px;
     width: 250px;
 }
@@ -38,7 +42,7 @@ body{
 .input{
     background-color: whitesmoke;
     border: none;
-    top: 35%;
+    top: 150px;
     left: 50%;
     user-select: none;
     position: absolute;
@@ -51,7 +55,7 @@ body{
 .inputpass{
     background-color: whitesmoke;
     border: none;
-    top: 39.8%;
+    top: 200px;
     left: 50%;
     user-select: none;
     position: absolute;
@@ -62,10 +66,9 @@ body{
 }
 
 .inputacc{
-    
     user-select: none;
     position: absolute;
-    top: 35%;
+    top: 150px;
     left: 50%;
     transform: translate(-215%);
 }
@@ -73,13 +76,13 @@ body{
 .inputpassword{
     user-select: none;
     position: absolute;
-    top: 40%;
+    top: 200px;
     left: 50%;
     transform: translate(-175%);
 }
 
 .line{
-    top: 37.5%;
+    top: 175px;
     left: 50%;
     position: absolute;
     transform: translate(-50%);
@@ -90,7 +93,7 @@ body{
 }
 
 .line2{
-    top: 42%;
+    top: 225px;
     left: 50%;
     position: absolute;
     transform: translate(-50%);
